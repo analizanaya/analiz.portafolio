@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Metadatos -->
+  <meta charset="utf-8">
+  <meta name="author" content="Analiz Anaya">
+  <meta name="description" content="Portafolio de desarrollo web de Analiz Anaya">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Titulo -->
+  <title>Analiz Anaya | Front-End Developer & UX Designer</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- Iconos de Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- CSS -->
+  <link href="style.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- Barra de navegacion -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+<!-- Seccion Hero -->
+<section class="hero">
+  <div class="hero-container">
+    <!-- Contenido visible -->
+    <div class="col">
+      <!-- Espacio 1 -->
+      <div class="col-6">
+        <img src="/imagenes/analizOK.png" alt="Imagen 1" class="custom-image">
+      </div>
+      <!-- Espacio 2 -->
+      <div class="col-6">
+        <p class="experiencia-titulo-hero">Hola, soy</p>
+        <h2 class="seccion-titulo-hero">Analiz Anaya</h2>
+
+        <div class="col">
+        <div class="col-3">
+          <p>Diseñadora UX UI</p>
+          <p>Desarrolladora Front-End</p>
+          <p>Comunicadora Audiovisual</p>
+        </div>
+        <div class="col-3" id="linea">
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- Fin del contenido visible -->
+  </div>
+</section>
+
+
+  <!-- Sobre mi -->
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo">Acerca de mí</h2>
+      <p>Soy curiosa, observadora y creativa. Pienso constantemente en alternativas y soluciones,
+        incluso a problemas cotidianos.
+        <br> Me encantan los desafíos. He liderado el lanzamiento y dirección del área audiovisual en tres empresas, dirigiendo equipos.
+        Después de 7 años en el área de diseño gráfico y audiovisual, decidí incursionar en el mundo TI, afrontando
+        nuevos retos con mentalidad de crecimiento.
+        <br> Mi objetivo es involucrarme en proyectos tecnológicos de alto impacto y ser
+        parte de un equipo que genere un cambio positivo en la sociedad.
+      </p>
+    </div>
+  </section>
+
+  <!-- Experiencia -->
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-code-slash"></i>
+          <p class="experiencia-titulo">Frontend Developer</p>
+          <p>Convierto diseños en sitios web interactivos. Mi enfoque es brindar 
+              experiencias de usuario optimizadas y estar al día con las últimas 
+              tendencias en desarrollo web. </p>
+          <div class="badges-contenedor">
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">HTML</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">CSS</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">JavaScript</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">Git</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">GitHub</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">Bootstrap</span>
+          </div>
+        </div>
+        <!-- UX UI Designer -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-laptop"></i>
+          <p class="experiencia-titulo">UX UI Designer</p>
+          <p>Diseño experiencias digitales enfocadas en mejorar la 
+            usabilidad y accesibilidad. Creo interfaces intuitivas, 
+            siempre buscando la 
+            satisfacción del usuario. </p>
+          <div class="badges-contenedor">
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">Figma</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">Prototipado</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">UI Motion</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">Adobe</span>
+          </div>
+        </div>
+        <!-- Audiovisual -->
+        <div class="columna col-12 col-md-4">
+          <i class="bi bi-film"></i>
+          <p class="experiencia-titulo">Audiovisual</p>
+          <p>Más de 7 años de 
+             experiencia en el campo. He liderado proyectos creativos y producido 
+             contenido de valor con impacto visual y emocional en la audiencia. </p>
+          <div class="badges-contenedor">
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">Producción</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">Post-producción</span>
+            <span class="badge" style="background-color:#E4DDF2; color: #7D6DA0;">Motion Graphics</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo">Mis proyectos recientes</h2>
+    <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+    <!-- Galeria de Proyectos -->
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <!-- Proyecto 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/project1.1.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Pokémon Go</p>
+              <h5>Desarrollo Front-end</h5>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/analizanaya/Pokemon-Go" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://analizanaya.github.io/Pokemon-Go/src/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/project2.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Insta Code</p>
+              <h5>Desarrollo Front-end</h5>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/analizanaya/DEV004-social-network-new" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://dev-004-social-network-new-sage.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/project3.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Clon de Google</p>
+              <h5>Desarrollo Front-end</h5>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/analizanaya/CloneGoogle" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://google-site-clone-tecnolochicas.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/project4.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Iobers Diversity</p>
+              <h5>Diseño UX UI</h5>
+              <div class="iconos-contenedor">
+                <a href="https://www.figma.com/file/BBwhCTidSvpxfRtGNCCffM/Iobers-Divesity?type=design&node-id=128%3A5476&mode=design&t=Mqk4mgucyeswzlKb-1" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-bezier"></i>
+                </a>
+                <a href="https://www.figma.com/proto/BBwhCTidSvpxfRtGNCCffM/Iobers-Divesity?page-id=0%3A1&type=design&node-id=128-5476&viewport=470%2C625%2C0.22&t=twIZtqNctQYUpoqP-1&scaling=scale-down&starting-point-node-id=128%3A5476&mode=design" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-phone"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/project5.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Entrevista</p>
+              <h5>Audiovisual</h5>
+              <div class="iconos-contenedor">
+                <a href="https://www.youtube.com/watch?v=v971CZYqVMY&ab_channel=AnalizAnaya" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-play-btn-fill"></i>
+                </a>
+                <a href="https://www.youtube.com/@lizinayari/videos" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-person-video2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proyecto 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img src="imagenes/project6.jpg" alt="Proyecto 1">
+            <div class="overlay">
+              <p>Misky Fruty</p>
+              <h5>Diseño Gráfico</h5>
+              <div class="iconos-contenedor">
+                <a href="https://www.behance.net/AnalizAnaya" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-behance"></i>
+                </a>
+                <a href="https://www.behance.net/gallery/167821185/Diseno-de-empaque-Misky-Fruty" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-vector-pen"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="https://github.com/analizanaya" target="_blank" rel="noopener noreferrer">
+      <button type="button" class="btn " style="background-color:#7D6DA0; color:#E4DDF2;">
+        Ver más proyectos
+        <i class="bi bi-arrow-right-circle-fill"></i>
+      </button>
+    </a>
+  </section>
+
+  <!-- Testimonios -->
+  <section id="testimonios" class="testimonios seccion-clara">
+    <h2 class="seccion-titulo">Testimonios</h2>
+    <!-- Carrusel -->
+    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="/imagenes/miranda.JPG" alt="Foto de Miranda">
+            <p class="testimonio-texto">“¡Analiz ha demostrado ser una excelente estudiante!. Durante el desarrollo de proyectos, ha mostrado un sólido dominio de tecnologías front-end como HTML, CSS y JavaScript, logrando crear interfaces de usuario atractivas y funcionales.”</p>
+            <div class="testimonio-info">
+              <p class="cliente">Miranda Jaramillo</p>
+              <p class="cargo">Mentora Front-End en TecnolochicasPRO</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="/imagenes/Keren.jpg" alt="Foto de Keren">
+            <p class="testimonio-texto">"Es una persona que le gusta aprender y estar en constante crecimiento, es comprometida, participativa y trabajadora."</p>
+            <div class="testimonio-info">
+              <p class="cliente">Keren Mitsue Ramírez</p>
+              <p class="cargo">Front-End Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <img class="testimonio-imagen rounded-circle" src="/imagenes/valerie.jpg" alt="Foto de Valerie">
+            <p class="testimonio-texto">"Durante el bootcamp de Tecnolochicas Pro 2023, tuve el gusto de trabajar con Analiz y me complace reconocerla como una talentosa desarrolladora web. Es una persona que busca mejorar en sus habilidades cada día."</p>
+            <div class="testimonio-info">
+              <p class="cliente">Valerie Cristel Lara Díaz</p>
+              <p class="cargo">Estudiante de Informática Administrativa en la UAEMéx </p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="/imagenes/jenn.jpg" alt="Foto de Jenn">
+          <p class="testimonio-texto">"Me complace recomendar a Analiz, dado que mostró ser una persona enfocada en aprender, conocer y practicar continuamente para desarrollar sus habilidades."</p>
+          <div class="testimonio-info">
+            <p class="cliente">Jennifer Morales</p>
+            <p class="cargo">Front-End Developer</p>
+          </div>
+        </div>
+    </div>
+     
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctame para iniciar tu proyecto y hacer realidad tus ideas.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:lizinayari@gmail.com">
+              <button type="button">
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pie de pagina (footer) -->
+  <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+    <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+    <p class="footer-texto text-center">¿Deseas conocer mejor mi trabajo?<br>Sígueme en estas plataformas.</p>
+    <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+      <a href="https://www.behance.net/AnalizAnaya" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-behance"></i>
+      </a>
+      <a href="https://github.com/analizanaya" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/analiz-anaya/" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-linkedin"></i>
+      </a>
+      <a href="https://www.instagram.com/analiz.design.art/?igshid=ZGUzMzM3NWJiOQ%3D%3D" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="mailto:lizinayari@gmail.com" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-envelope"></i>
+      </a>
+    </div>
+    <div class="derechos-de-autor">Creado por Analiz Anaya (2023) &#169;</div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
