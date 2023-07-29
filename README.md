@@ -28,6 +28,9 @@ Contacto:
 
 ![5](https://github.com/analizanaya/analiz.portafolio/assets/122294256/9d755ebf-6963-4989-971b-0f4ba6716e13)
 
+## ✨Aquí encontrarás el proyecto desplegado.✨
+
+[https://basic-page-design-thinking.netlify.app/](https://analiz-portafolio.netlify.app/)
 
 ## Tecnologías
 
