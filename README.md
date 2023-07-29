@@ -30,7 +30,9 @@ Contacto:
 
 ## ✨Aquí encontrarás el proyecto desplegado.✨
 
-[https://basic-page-design-thinking.netlify.app/](https://analiz-portafolio.netlify.app/)
+[Portafolio Analiz Anaya 👾][github-link]
+
+[github-link]: https://analiz-portafolio.netlify.app/
 
 ## Tecnologías
 
